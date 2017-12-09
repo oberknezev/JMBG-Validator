@@ -2,17 +2,24 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+.validator {
+    margin:20px;
 }
-a {
+h1 {
+    margin: 20px;
+    display: inline;
+}
+input {
+    margin: 20px;
+    text-align: center;
+}
+button {
     position: relative;
     cursor: pointer;
 }
-a:active {
+button:active {
     top: 1px;
 }
-a, a:hover, a:visited, a:active, a:focus {
-    outline: none;
-    text-decoration: none;
+p {
+    margin: 20px;
 }
